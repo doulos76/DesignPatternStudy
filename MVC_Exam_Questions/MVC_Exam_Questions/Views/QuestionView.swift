@@ -6,7 +6,6 @@
 //  Copyright © 2018 dave76. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class QuestionView: UIView {
@@ -16,13 +15,12 @@ class QuestionView: UIView {
   
   override init(frame: CGRect) {
     super.init(frame: frame)
-    
     commonInit()
   }
   
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
-//    fatalError("init(coder:) has not been implemented")
+    fatalError("init(coder:) has not been implemented")
     commonInit()
   }
   

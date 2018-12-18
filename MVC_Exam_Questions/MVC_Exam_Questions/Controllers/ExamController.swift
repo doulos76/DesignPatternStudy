@@ -6,7 +6,6 @@
 //  Copyright © 2018 dave76. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class ExamController: UIViewController {
@@ -15,7 +14,6 @@ class ExamController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
     let question = Question(text: "Is Earth round?", point: 10, isCorrect: true)
     questionView.questionTextLabel.text = question.text
   }
